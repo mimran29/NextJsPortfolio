@@ -1,6 +1,16 @@
 .container {
 }
 
+.btn{
+  padding: 20px;
+  cursor: pointer;
+  background-color: #53c28b;
+  border: none;
+  border-radius: 5px;
+  width: max-content;
+  color: white;
+}
+
 .title {
   font-size: 60px;
   margin-bottom: 100px;

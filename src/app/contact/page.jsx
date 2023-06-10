@@ -6,10 +6,6 @@ import styles from "./page.module.css";
 import Image from "next/image";
 import emailjs from "@emailjs/browser";
 
-export const metadata = {
-  title: "Contact Page",
-  description: "Contact Page",
-};
 
 const Contact = () => {
     const form = useRef()
@@ -28,7 +24,7 @@ const Contact = () => {
 
   return (
     <div className={styles.container}>
-      <h1 className={styles.title}>Keep in Touch</h1>
+      <h1 className={styles.title}> Keep in Touch</h1>
       <div className={styles.content}>
         <div className={styles.imgContainer}>
           <Image
